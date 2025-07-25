@@ -18,4 +18,5 @@ Instruct CLAUDE.md to use hooks for aforementioned triggers.
 # References:
 
 [Muses - Johannes Prinz](https://icy-dune-030ff6d00.azurestaticapps.net/muse)
+
 [Pair programming - Wikipedia](https://en.wikipedia.org/wiki/Pair_programming)
