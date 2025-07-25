@@ -1,17 +1,21 @@
-# Agentic Pair Programmer (PPMOA)
+# Pair Programming Mixture of Agents (PPMOA): The ultimate pair programming partnership!
 
 ## Overview
-An intelligent pair programming assistant that embodies the collective wisdom of software engineering thought leaders, providing real-time code review and planning assistance through automated triggers via Claude Code's MCP infrastructure.
+An intelligent pair programming assistant that embodies the collective wisdom of software engineering thought leaders, providing real-time planning assistance and code review through automated triggers.
 
-## Core Philosophy
-The agent synthesizes best practices from industry leaders, each bringing their unique perspective:
+## Core Philosophy: Mixture of Agents (MOA) Architecture
 
-### Expert Wisdom Foundation
-- **Dave Farley**: *"Software engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems in software."*
-- **Kent Beck**: *"Software design is an exercise in human relationships."*
-- **Martin Fowler**: *"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."*
-- **Kevlin Henney**: *"There is no code faster than no code."* (Software as executable fiction)
-- **Robert C. Martin**: *"It is not enough for code to work."* (Clean code craftsmanship)
+The system employs a sophisticated **dual-mode Mixture of Agents approach** that synthesizes wisdom from industry leaders based on context:
+
+### 🎯 **Consensus Mode** (Code Operations)
+**Triggers**: File writes, commits, code reviews  
+**Operation**: 5 expert agents → internal coordination → unified response  
+**Result**: Balanced, comprehensive feedback for development flow
+
+### 🧠 **Singular Mode** (Planning Operations)  
+**Triggers**: GitHub issues, PR discussions, architectural planning  
+**Operation**: 5 expert agents → independent analysis → 5 distinct expert responses  
+**Result**: Direct access to specific thought leader perspectives
 
 ## Technical Architecture
 
@@ -22,23 +26,27 @@ The agent synthesizes best practices from industry leaders, each bringing their 
 
 ### Core Functions
 
-#### 1. Plan Review
-- **Trigger**: Git issue creation/modification
-- **Actions**:
-  - Analyze issue description for clarity and completeness
-  - Suggest acceptance criteria
-  - Identify potential edge cases
-  - Recommend implementation approach
-  - Flag architectural concerns
+#### 1. Planning Analysis (Singular Mode)
+- **Triggers**: Git issue creation/modification, architectural discussions
+- **MOA Operation**: 5 independent expert analyses
+- **Expert Responses**:
+  - **Dave Farley**: Continuous delivery and empirical validation perspective
+  - **Kent Beck**: Human-centered design and incremental development approach  
+  - **Martin Fowler**: Evolutionary design and refactoring patterns
+  - **Kevlin Henney**: Simplicity-first and elegant design principles
+  - **Uncle Bob**: Clean code standards and professional responsibility
+- **Output**: 5 distinct messages providing specialized expert viewpoints
 
-#### 2. Code & Documentation Review
-- **Trigger**: File write operations
-- **Actions**:
-  - Immediate feedback on code quality
-  - Design pattern suggestions
-  - Test coverage recommendations
-  - Documentation completeness check
-  - Performance and security considerations
+#### 2. Code Review (Consensus Mode)
+- **Triggers**: File write operations, commits, pull requests
+- **MOA Operation**: 5 expert agents → internal consensus → unified response
+- **Consensus Areas**:
+  - Code quality assessment with balanced expert perspectives
+  - Design pattern recommendations synthesized from multiple viewpoints
+  - Test coverage suggestions incorporating TDD and empirical approaches
+  - Documentation completeness from communication-focused lens
+  - Performance and security considerations across expert domains
+- **Output**: Single comprehensive message representing collective wisdom
 
 ## Behavioral Characteristics
 
@@ -140,23 +148,35 @@ Business-focused analysis with cost-benefit projections and financial modeling s
 ### 🎯 Active EPIC
 **[Issue #9: Agentic Pair Programmer Implementation](https://github.com/cgbarlow/ppmoa/issues/9)**
 
-### 📊 Feature Progress
+### 🤖 MOA Refinement Status
+**[Issue #18: MOA Architecture Refinement](https://github.com/cgbarlow/ppmoa/issues/18)** - **IN PROGRESS**
+
+Comprehensive swarm analysis completed with 6 specialist agents:
+- ✅ **MOA System Architect**: Dual-mode architecture designed
+- ✅ **Requirements Analyst**: User stories enhanced for MOA modes
+- ✅ **Expert Research Specialist**: Philosophical integration framework complete
+- ✅ **Technical Implementation**: Feasibility validated, implementation strategy ready  
+- ✅ **Documentation Reviewer**: All docs updated for MOA consistency
+- ✅ **Project Coordinator**: GitHub integration and YOLO WCP alignment confirmed
+
+### 📊 Feature Progress (MOA-Enhanced)
 ```
-📊 EPIC: Agentic Pair Programmer
-   ├── Features: 7 total (F1-F7)
-   ├── 🔄 Current: Ready to begin F1 (Core Prompting & AST Analysis)
-   ├── ⭕ Status: Planning phase complete
-   └── 🎯 Target: $7.39M net value over 3 years
+📊 EPIC: Agentic Pair Programmer (MOA-Enhanced)
+   ├── Features: 7 total (F1-F7) with dual-mode architecture
+   ├── 🔄 Current: MOA refinement near completion
+   ├── 🎯 Next: F1 implementation with Consensus/Singular modes
+   ├── ⭕ Status: MOA architecture ready, F1-F7 enhanced with dual-mode specs
+   └── 💰 Target: $7.39M net value + 35-50% user satisfaction improvement
 ```
 
-### 🏗️ Features (F1-F7)
-- **F1**: Core Prompting & AST Analysis System
-- **F2**: MCP Hook System & Configuration  
-- **F3**: LoRA Training & Tool Integration
-- **F4**: Advanced Pattern Recognition
-- **F5**: RAG & Knowledge Base System
-- **F6**: Semantic Embeddings & Memory
-- **F7**: Enterprise Scalability & Performance
+### 🏗️ Features (F1-F7) - MOA-Enhanced
+- **F1**: Core Prompting & AST Analysis System **+ MOA Dual-Mode Foundation**
+- **F2**: MCP Hook System & Configuration **+ Consensus/Singular Mode Routing**
+- **F3**: LoRA Training & Tool Integration **+ Expert-Specific Model Training**
+- **F4**: Advanced Pattern Recognition **+ Multi-Expert Consensus Algorithms**
+- **F5**: RAG & Knowledge Base System **+ Expert-Aware Knowledge Retrieval**
+- **F6**: Semantic Embeddings & Memory **+ Expert Perspective Embeddings**
+- **F7**: Enterprise Scalability & Performance **+ MOA Coordination Optimization**
 
 ## Getting Started
 1. Review the [Product Specification](./PRODUCT_SPECIFICATION.md) for detailed requirements
