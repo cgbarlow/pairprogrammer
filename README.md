@@ -234,4 +234,4 @@ hooks:
 - [Muses - Johannes Prinz](https://icy-dune-030ff6d00.azurestaticapps.net/muse)
 - [Pair Programming - Wikipedia](https://en.wikipedia.org/wiki/Pair_programming)
 - [Claude Code Hooks Documentation](https://docs.anthropic.com/en/docs/claude-code/hooks)
-- Model Context Protocol documentation
+- [Model Context Protocol documentation](https://modelcontextprotocol.io/introduction)
