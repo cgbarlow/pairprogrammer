@@ -1,4 +1,5 @@
-# High level spec
+# Pair programmer for coding agents
+## High level spec
 An agentic pair programmer well-versed in all the combined writing of the following authors:
 
 - Dave Farlay - Continuous Delivery, Modern Software Engineering
@@ -7,7 +8,7 @@ An agentic pair programmer well-versed in all the combined writing of the follow
 - Kevlin Henny - ...
 - Uncle Bob - ...
 
-## Implementation
+### Implementation
 MCP. The agent will perform the following functions:
 
 1. Plan review - trigger: git issue creation
@@ -15,7 +16,7 @@ MCP. The agent will perform the following functions:
 
 Instruct CLAUDE.md to use hooks for aforementioned triggers.
 
-# References:
+## References:
 
 [Muses - Johannes Prinz](https://icy-dune-030ff6d00.azurestaticapps.net/muse)
 
