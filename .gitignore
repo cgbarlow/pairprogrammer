@@ -54,3 +54,4 @@ venv/
 env/
 .Python
 .devcontainer
+.swarm
