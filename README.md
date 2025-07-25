@@ -1,7 +1,7 @@
 # Pair Programming Mixture of Agents (PPMOA): The ultimate pair programming partnership!
 
 ## Overview
-An intelligent pair programming assistant that embodies the collective wisdom of software engineering thought leaders, providing real-time planning assistance and code review through automated triggers.
+An agentic pair programming partner that embodies the collective wisdom of software engineering thought leaders, providing real-time planning assistance and code review through automated triggers.
 
 ## Core Philosophy: Mixture of Agents (MOA) Architecture
 
