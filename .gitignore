@@ -43,6 +43,9 @@ temp/
 # Docker
 .docker/
 
+# Dev Container
+.devcontainer/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -50,4 +53,4 @@ __pycache__/
 venv/
 env/
 .Python
-.devcontainer/installation-report.md
+.devcontainer
