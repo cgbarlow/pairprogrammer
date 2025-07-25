@@ -320,8 +320,24 @@ Business-focused analysis with cost-benefit projections and financial modeling s
 3. Explore [Expert Research](./research/) for philosophical foundations
 4. Begin with Feature F1 implementation following GitHub Issue #10
 
+## License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+
+**You are free to:**
+- Share and redistribute the material in any medium or format
+- Adapt, remix, transform, and build upon the material
+
+**Under the following terms:**
+- **Attribution**: Must provide appropriate credit and indicate changes
+- **NonCommercial**: Cannot be used for commercial purposes
+- **ShareAlike**: Derivatives must use the same license
+
+See [LICENSE.txt](./LICENSE.txt) for full license details and expert research attribution.
+
 ## References
 - [GitHub Repository](https://github.com/cgbarlow/ppmoa)
 - [Claude Code Hooks Documentation](https://docs.anthropic.com/en/docs/claude-code/hooks)
 - [Model Context Protocol documentation](https://modelcontextprotocol.io/introduction)
 - [Expert Research Sources](./research/README.md)
+- [Creative Commons CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
