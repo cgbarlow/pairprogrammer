@@ -10,7 +10,7 @@
 
 ## 🏗️ Executive Architecture Summary
 
-This enhanced technical architecture integrates **native Claude Code sub-agents** with the existing **Pair Programmer MOA (PPMOA) system**, creating a sophisticated **5-expert coordination layer** that leverages Claude Flow's swarm capabilities while maintaining the proven dual-mode operation (Consensus vs Singular) framework.
+This enhanced technical architecture integrates **native Claude Code sub-agents** with the existing **Pair Programmer MOA (PPMOA) system**, creating a sophisticated **6-expert coordination layer** (5 thought leaders + 1 Claude Code best practices agent) that leverages Claude Flow's swarm capabilities while maintaining the proven dual-mode operation (Consensus vs Singular) framework.
 
 **Key Enhancement**: The original MOA architecture relied on internal agent coordination within a single Claude instance. This enhanced design utilizes **true Claude Code sub-agents** spawned via the Task tool, providing genuine **distributed expert reasoning** with **coordinated memory** and **performance optimization**.
 
@@ -18,11 +18,12 @@ This enhanced technical architecture integrates **native Claude Code sub-agents*
 
 ```
 Traditional MOA: 1 Claude → 5 Internal Experts → Response
-Enhanced PPMOA: 1 Orchestrator → 5 Claude Sub-Agents → Coordinated Response
+Enhanced PPMOA: 1 Orchestrator → 6 Claude Sub-Agents → Coordinated Response
+  (5 Thought Leaders + 1 Claude Code Best Practices Agent)
 ```
 
 **Benefits**:
-- **True Parallel Processing**: 5 independent Claude instances working simultaneously
+- **True Parallel Processing**: 6 independent Claude instances working simultaneously
 - **Specialized Expertise**: Each sub-agent optimized for specific analysis domains
 - **Coordinated Memory**: Shared context via Claude Flow memory system
 - **Performance Scaling**: Linear performance improvement with agent count
@@ -89,6 +90,17 @@ Sub-Agent Specification:
 - Memory Scope: solid_principles, clean_patterns, professionalism_standards
 ```
 
+#### **1.6 Claude Code Best Practices Agent (Technical Coordination Expert)**
+**Specialization**: Claude Code integration, MCP protocols, swarm coordination
+```javascript
+Sub-Agent Specification:
+- Focus: Claude Code workflows, MCP integration, technical coordination
+- Knowledge Base: Claude Code documentation, MCP protocol, swarm patterns
+- Response Pattern: Technical implementation focus with coordination guidance
+- Performance Target: <150ms for technical coordination analysis
+- Memory Scope: claude_patterns, mcp_integration, coordination_strategies
+```
+
 ### 2. Sub-Agent Coordination Engine
 
 #### **2.1 Orchestrator Agent (Main Claude Instance)**
@@ -108,7 +120,7 @@ Orchestrator Responsibilities:
 Enhanced Sub-Agent Protocol:
 1. Request Receipt → Orchestrator Analysis
 2. Mode Selection → Consensus | Singular
-3. Sub-Agent Spawning → 5 Task tool calls (parallel)
+3. Sub-Agent Spawning → 6 Task tool calls (parallel)
 4. Context Distribution → Shared memory injection
 5. Parallel Processing → Independent expert analysis
 6. Response Collection → Orchestrator aggregation
@@ -130,12 +142,13 @@ Input Request
     ↓
 Orchestrator Analysis (Mode Detection)
     ↓
-Parallel Sub-Agent Spawning (5 Task calls)
+Parallel Sub-Agent Spawning (6 Task calls)
     ├── Farley Agent (CI/CD Analysis)
     ├── Beck Agent (TDD Analysis)  
     ├── Fowler Agent (Pattern Analysis)
     ├── Henney Agent (Clarity Analysis)
-    └── Martin Agent (Clean Code Analysis)
+    ├── Martin Agent (Clean Code Analysis)
+    └── Claude Code Agent (Technical Coordination)
     ↓
 Memory-Coordinated Processing
     ├── Shared context via Claude Flow memory
@@ -175,19 +188,20 @@ Input Request
     ↓
 Orchestrator Analysis (Mode Detection)
     ↓
-Parallel Sub-Agent Spawning (5 Task calls)
+Parallel Sub-Agent Spawning (6 Task calls)
     ├── Farley Agent → Independent CI/CD perspective
     ├── Beck Agent → Independent TDD perspective
     ├── Fowler Agent → Independent architecture perspective
     ├── Henney Agent → Independent clarity perspective
-    └── Martin Agent → Independent clean code perspective
+    ├── Martin Agent → Independent clean code perspective
+    └── Claude Code Agent → Independent technical coordination perspective
     ↓
 Parallel Independent Processing
     ├── No consensus coordination required
     ├── Individual expert responses (150ms each)
     └── Memory storage for learning
     ↓
-5 Independent MCP Responses (150-200ms each)
+6 Independent MCP Responses (150-200ms each)
 ```
 
 **Response Formatting**:
@@ -206,6 +220,9 @@ Parallel Independent Processing
 
 ## Robert C. Martin (Clean Code) Perspective:
 [Independent analysis from clean code principles standpoint]
+
+## Claude Code Best Practices Perspective:
+[Independent analysis from technical coordination and MCP integration standpoint]
 ```
 
 ---
@@ -288,7 +305,8 @@ Task Tool Integration:
   Task("You are Kent Beck expert sub-agent. Analyze from TDD perspective..."),
   Task("You are Martin Fowler expert sub-agent. Analyze from patterns perspective..."),
   Task("You are Kevlin Henney expert sub-agent. Analyze from clarity perspective..."),
-  Task("You are Robert C. Martin expert sub-agent. Analyze from clean code perspective...")
+  Task("You are Robert C. Martin expert sub-agent. Analyze from clean code perspective..."),
+  Task("You are Claude Code Best Practices expert sub-agent. Analyze from technical coordination perspective...")
 ]
 ```
 
@@ -307,7 +325,8 @@ expert_coordination/{session_id}/
 │   ├── beck/{analysis, confidence, timestamp}
 │   ├── fowler/{analysis, confidence, timestamp}
 │   ├── henney/{analysis, confidence, timestamp}
-│   └── martin/{analysis, confidence, timestamp}
+│   ├── martin/{analysis, confidence, timestamp}
+│   └── claude_code/{analysis, confidence, timestamp}
 ├── consensus/
 │   ├── weighted_scores
 │   ├── conflict_resolution
@@ -634,7 +653,7 @@ The enhanced PPMOA system with native Claude Code sub-agents represents a signif
 
 ### **Key Architectural Advantages**:
 
-1. **True Parallel Expertise**: 5 independent Claude instances providing genuine expert perspectives
+1. **True Parallel Expertise**: 6 independent Claude instances providing genuine expert perspectives (5 thought leaders + 1 technical coordinator)
 2. **Performance Scalability**: Linear performance improvement with proper sub-agent coordination  
 3. **Flexible Operation Modes**: Consensus for unified decisions, Singular for diverse perspectives
 4. **Coordinated Learning**: Shared memory enables system-wide improvement over time
@@ -653,7 +672,7 @@ The enhanced sub-agent architecture enables the aggressive ROI targets outlined 
 - **Phase 2**: Sustained performance with advanced coordination features  
 - **Phase 3**: Enterprise scalability supporting thousands of developers
 
-**Status**: ✅ **ARCHITECTURE DESIGN COMPLETE** - Ready for implementation coordination with development team.
+**Status**: ✅ **6-AGENT ARCHITECTURE DESIGN COMPLETE** - Ready for implementation coordination with development team including Issue #22 (Slash-Commands) and Issue #24 (6th Expert Agent) integration.
 
 ---
 

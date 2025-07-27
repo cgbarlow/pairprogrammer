@@ -114,16 +114,40 @@ The Agentic Pair Programmer is an intelligent coding assistant that embodies the
   - Error handling and fallback strategies
 - **Dependencies**: All analysis engines, context store
 
-#### 2.2.4 Few-Shot Engine (Phase 1 - Foundation)
+#### 2.2.4 Enhanced MOA Expert System (Phase 1 - Foundation)
+- **Purpose**: 6-expert coordination system with dual-mode operation
+- **Expert Pool**:
+  - **Dave Farley Agent**: CI/CD and deployment expertise
+  - **Kent Beck Agent**: TDD and human-centered design
+  - **Martin Fowler Agent**: Design patterns and refactoring
+  - **Kevlin Henney Agent**: Code clarity and philosophy
+  - **Robert C. Martin Agent**: Clean code and SOLID principles
+  - **Claude Agent**: AI-native development and Claude Code best practices
+- **Dual-Mode Operation**:
+  - **Consensus Mode**: 6 experts → unified response (file operations)
+  - **Singular Mode**: 6 experts → individual perspectives (planning)
+- **Dependencies**: Expert coordination engine, Claude Flow memory
+
+#### 2.2.5 Slash-Commands Interface (Phase 1 - Foundation)
+- **Purpose**: Natural language command interface for expert interaction
+- **Responsibilities**:
+  - Command parsing and intent recognition
+  - Intelligent expert routing based on context
+  - Multi-expert coordination for complex commands
+  - Progressive command learning and optimization
+- **Command Categories**: /review, /architect, /test, /refactor, /claude, /consensus, /perspectives
+- **Dependencies**: Natural language processing, expert routing engine
+
+#### 2.2.6 Few-Shot Engine (Phase 1 - Foundation)
 - **Purpose**: Immediate code review capability using curated examples
 - **Responsibilities**:
-  - Prompt assembly from thought leader examples
+  - Prompt assembly from 6 thought leader examples
   - Real-time analysis with <200ms response
   - Basic pattern recognition and suggestions
   - Configurable review depth and focus areas
-- **Dependencies**: Thought leader knowledge base, prompt templates
+- **Dependencies**: 6-expert knowledge base, prompt templates
 
-#### 2.2.5 AST Analyzer (Phase 1 - Foundation)  
+#### 2.2.7 AST Analyzer (Phase 1 - Foundation)  
 - **Purpose**: Structural code understanding and analysis
 - **Responsibilities**:
   - Multi-language parsing (Tree-sitter integration)
@@ -132,12 +156,12 @@ The Agentic Pair Programmer is an intelligent coding assistant that embodies the
   - Architecture compliance checking
 - **Dependencies**: Tree-sitter parsers, language definitions
 
-#### 2.2.6 Static Analysis Integration (Phase 1 - Foundation)
+#### 2.2.8 Static Analysis Integration (Phase 1 - Foundation)
 - **Purpose**: Leverage existing mature tools for immediate value
 - **Responsibilities**:
   - ESLint, SonarQube, and other tool orchestration
   - Result normalization and aggregation
-  - Custom rule integration
+  - Custom rule integration with 6-expert insights
   - Performance optimization
 - **Dependencies**: Static analysis tools, tool API integrations
 

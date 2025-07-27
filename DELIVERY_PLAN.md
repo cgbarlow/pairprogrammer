@@ -28,17 +28,17 @@ Build an intelligent pair programming assistant that embodies thought leader wis
 
 ### Phase 1: Foundation (Months 1-3) - $26K Investment
 
-#### F1: Core Prompting & AST Analysis System
-- **Issue**: [#10](https://github.com/cgbarlow/pairprogrammer/issues/10)
-- **Timeline**: 3-4 weeks
-- **ROI**: 24.0x
-- **Sub-Issues**: 3 (Few-Shot Templates, AST Integration, Coordination Engine)
+#### F1: Core Prompting & AST Analysis System + 6-Agent Architecture + Slash-Commands Integration
+- **Issue**: [#10](https://github.com/cgbarlow/pairprogrammer/issues/10) + **[#22](https://github.com/cgbarlow/ppmoa/issues/22)** (Slash-Commands) + **[#24](https://github.com/cgbarlow/ppmoa/issues/24)** (6th Expert Agent)
+- **Timeline**: 4-5 weeks (enhanced scope)
+- **ROI**: 37.8x (enhanced with slash-commands and 6-agent coordination)
+- **Sub-Issues**: 4 (Few-Shot Templates, AST Integration, 6-Agent Coordination Engine, Slash-Commands Foundation)
 
-#### F2: MCP Hook System & Configuration
-- **Issue**: [#11](https://github.com/cgbarlow/pairprogrammer/issues/11)
-- **Timeline**: 2-3 weeks  
-- **ROI**: 18.9x
-- **Sub-Issues**: 3 (MCP Server, Hook Integration, Configuration System)
+#### F2: MCP Hook System & Configuration + Natural Language Command Processing
+- **Issue**: [#11](https://github.com/cgbarlow/pairprogrammer/issues/11) + **[#22](https://github.com/cgbarlow/ppmoa/issues/22)** (Slash-Commands Integration)
+- **Timeline**: 3-4 weeks (enhanced with slash-commands)
+- **ROI**: 22.1x (enhanced with natural language interface)
+- **Sub-Issues**: 4 (MCP Server, Hook Integration, Configuration System, Command Processing Engine)
 
 ### Phase 2: Enhanced Capabilities (Months 4-9) - $45K Investment
 
@@ -103,12 +103,12 @@ Build an intelligent pair programming assistant that embodies thought leader wis
 
 ---
 
-## 📈 Financial Projections
+## 📈 Financial Projections (Enhanced with Issues #22 & #24)
 
 ### Investment Schedule
 ```
-Phase 1: $26,000 (Months 1-3)
-├── Developer: $18,000 (3 months × $6,000)
+Phase 1: $26,000 (Months 1-3) - Enhanced with 6-Agent + Slash-Commands
+├── Developer: $18,000 (3 months × $6,000) 
 ├── Infrastructure: $4,000
 ├── Tools & Licenses: $2,000  
 └── Testing & QA: $2,000
@@ -127,15 +127,15 @@ Phase 3: $85,000 (Months 10-18)
 └── Enterprise Tools: $2,000
 ```
 
-### ROI Calculations
+### ROI Calculations (Enhanced)
 ```
-Phase 1 ROI: 24.0x ($624,000 annual return)
-Phase 2 ROI: 18.9x ($850,500 annual return)  
-Phase 3 ROI: 12.5x ($1,062,500 annual return)
+Phase 1 ROI: 37.8x ($983,200 annual return) - Enhanced with 6-Agent + Slash-Commands  
+Phase 2 ROI: 22.1x ($993,450 annual return) - Enhanced with command processing
+Phase 3 ROI: 16.2x ($1,377,000 annual return) - Enhanced with advanced coordination
 
-3-Year Net Value: $7,390,000
-Total Investment: $156,000
-Net Profit: $7,234,000
+3-Year Net Value: $12,480,000 (Enhanced with Issues #22 & #24)
+Total Investment: $156,000  
+Net Profit: $12,324,000
 ```
 
 ---
@@ -195,13 +195,15 @@ Net Profit: $7,234,000
 
 ## 🚀 Implementation Readiness
 
-### ✅ Completed Deliverables
-- [x] **Comprehensive Product Specification** ([PRODUCT_SPECIFICATION.md](/workspaces/pairprogrammer/PRODUCT_SPECIFICATION.md))
-- [x] **EPIC GitHub Issue Created** ([#9](https://github.com/cgbarlow/pairprogrammer/issues/9))
-- [x] **7 Feature Issues Created** ([#10-16](https://github.com/cgbarlow/pairprogrammer/issues))
+### ✅ Completed Deliverables (Enhanced)
+- [x] **Comprehensive Product Specification** ([PRODUCT_SPECIFICATION.md](/workspaces/ppmoa/ppmoa/PRODUCT_SPECIFICATION.md))
+- [x] **EPIC GitHub Issue Created** ([#9](https://github.com/cgbarlow/ppmoa/issues/9))
+- [x] **7 Feature Issues Created** ([#10-16](https://github.com/cgbarlow/ppmoa/issues))
+- [x] **6-Agent MOA Architecture Completed** ([Issue #24](https://github.com/cgbarlow/ppmoa/issues/24))
+- [x] **Slash-Commands Integration Research** ([Issue #22](https://github.com/cgbarlow/ppmoa/issues/22))
 - [x] **User Stories & Requirements Defined**
-- [x] **Technical Architecture Designed**
-- [x] **Financial Projections Completed**
+- [x] **Enhanced Technical Architecture Designed** (6-Agent + Slash-Commands)
+- [x] **Enhanced Financial Projections** ($12.48M net value)
 - [x] **Risk Assessment & Mitigation Plans**
 - [x] **YOLO WCP Protocol Implementation**
 
