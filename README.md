@@ -28,9 +28,10 @@
 **Current Status:** ✅ **Phase 1 COMPLETE** - Production-ready system deployed with 94% readiness score
 
 **Next Steps:** 
-1. Review [Product Specification](./PRODUCT_SPECIFICATION.md) for detailed requirements
-2. Follow [YOLO WCP Delivery Plan](./DELIVERY_PLAN.md) for implementation roadmap
-3. Begin with Phase 2 Letta integration ([F10 #47](https://github.com/cgbarlow/ppmoa/issues/47))
+1. **[Test Phase 1 Deployment](./PHASE1_DEPLOYMENT_TESTING_GUIDE.md)** - Step-by-step testing in real environments
+2. Review [Product Specification](./PRODUCT_SPECIFICATION.md) for detailed requirements
+3. Follow [YOLO WCP Delivery Plan](./DELIVERY_PLAN.md) for implementation roadmap
+4. Begin with Phase 2 Letta integration ([F10 #47](https://github.com/cgbarlow/ppmoa/issues/47))
 
 ---
 
@@ -268,6 +269,7 @@ Revolutionary UX enhancement through natural language interface:
 ## 📚 Documentation & Resources
 
 ### **📋 Core Documentation**
+- **[Phase 1 Deployment Testing Guide](./PHASE1_DEPLOYMENT_TESTING_GUIDE.md)** - ⭐ **Step-by-step real environment testing**
 - **[Product Specification](./PRODUCT_SPECIFICATION.md)** - Comprehensive requirements and system architecture
 - **[YOLO WCP Delivery Plan](./DELIVERY_PLAN.md)** - 12 features (F1-F12) with revolutionary Letta integration
 - **[User Stories & Requirements](./USER_STORIES_AND_REQUIREMENTS.md)** - Detailed stakeholder perspectives
