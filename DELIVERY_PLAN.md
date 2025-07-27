@@ -56,42 +56,52 @@ Build an intelligent pair programming assistant that embodies thought leader wis
 - **Sub-Issues**: 3 (Knowledge Base Curation, Document Parsing & Indexing, Semantic Search)
 - **Strategic Priority**: HIGH - Expert knowledge amplification with 6-expert specialization
 
-#### F3: LoRA Training & Tool Integration
-- **Issue**: [#12](https://github.com/cgbarlow/pairprogrammer/issues/12)
-- **Timeline**: 4-6 weeks (Month 8-9)
-- **ROI**: 15.7x (Enhanced with Letta context)
-- **Sub-Issues**: 3 (LoRA Pipeline, Tool Integration, Generation Engine)
-
-### Phase 3: Advanced Features (Months 10-18) - $920K Investment (Enhanced with Advanced Learning)
+### Phase 3: Advanced Context Management (Months 10-18) - $920K Investment (Enhanced with Advanced Learning)
 
 #### F12: Advanced Context Management - Vector Embeddings & Learning Systems
 - **Issue**: [#49](https://github.com/cgbarlow/ppmoa/issues/49)
+- **Milestone**: Phase 3
 - **Timeline**: 12 weeks (Month 10-12)
 - **ROI**: 18.3x (Advanced semantic capabilities with continuous learning)
 - **Sub-Issues**: 4 (Vector Embedding System, Cross-Expert Knowledge Synthesis, Advanced Search Engine, Learning Algorithms)
 - **Strategic Priority**: HIGH - Advanced semantic search with >90% accuracy
 
+### Phase 4: Enhanced Capabilities (Months 13-18) - Enhanced Model Training & Pattern Recognition
+
+#### F3: LoRA Training & Tool Integration
+- **Issue**: [#12](https://github.com/cgbarlow/ppmoa/issues/12)
+- **Milestone**: Phase 4
+- **Timeline**: 4-6 weeks (Month 13-15)
+- **ROI**: 15.7x (Enhanced with Letta context)
+- **Sub-Issues**: 3 (LoRA Pipeline, Tool Integration, Generation Engine)
+
 #### F4: Advanced Pattern Recognition
-- **Issue**: [#13](https://github.com/cgbarlow/pairprogrammer/issues/13)
-- **Timeline**: 6 weeks (Month 13-15)
+- **Issue**: [#13](https://github.com/cgbarlow/ppmoa/issues/13)
+- **Milestone**: Phase 4
+- **Timeline**: 6 weeks (Month 15-17)
 - **ROI**: 14.2x (Enhanced with Letta pattern recognition)
 - **Sub-Issues**: 3 (SOLID Detection, Security Analysis, Performance Patterns)
 
+### Phase 5: Enterprise Scale (Months 18-24) - Knowledge Systems & Enterprise Deployment
+
 #### F5: RAG & Knowledge Base System
-- **Issue**: [#14](https://github.com/cgbarlow/pairprogrammer/issues/14)
-- **Timeline**: 6 weeks (Month 16-17)
+- **Issue**: [#14](https://github.com/cgbarlow/ppmoa/issues/14)
+- **Milestone**: Phase 5
+- **Timeline**: 6 weeks (Month 18-20)
 - **ROI**: 12.5x (Enhanced with Letta knowledge integration)
 - **Sub-Issues**: 3 (Content Indexing, RAG Pipeline, Context Retrieval)
 
 #### F6: Semantic Embeddings & Memory (Enterprise Scale)
-- **Issue**: [#15](https://github.com/cgbarlow/pairprogrammer/issues/15)
-- **Timeline**: 4 weeks (Month 17-18)
+- **Issue**: [#15](https://github.com/cgbarlow/ppmoa/issues/15)
+- **Milestone**: Phase 5
+- **Timeline**: 4 weeks (Month 20-22)
 - **ROI**: 11.8x (Enterprise-grade with multi-tenant support)
 - **Sub-Issues**: 3 (Embedding Pipeline, Memory System, Semantic Search)
 
 #### F7: Enterprise Scalability & Performance
-- **Issue**: [#16](https://github.com/cgbarlow/pairprogrammer/issues/16)
-- **Timeline**: 4 weeks (Month 18)
+- **Issue**: [#16](https://github.com/cgbarlow/ppmoa/issues/16)
+- **Milestone**: Phase 5
+- **Timeline**: 4 weeks (Month 22-24)
 - **ROI**: 10.3x (Global deployment with Letta optimization)
 - **Sub-Issues**: 3 (Scaling Architecture, Monitoring, Deployment Pipeline)
 
@@ -200,14 +210,18 @@ IRR: 142% annually
    ├── ⭕ F1: Core Prompting & AST Analysis ↳ 3 issues ▶
    └── ⭕ F2: MCP Hook System & Configuration ↳ 3 issues ▶
 
-📋 Phase 2: Enhanced with Letta Integration (0/3 features complete)
+📋 Phase 2: Enhanced with Letta Integration (0/2 features complete)
    ├── 🔴 F10: Letta Filesystem Core Integration ↳ 3 issues ▶ CRITICAL
-   ├── 🔴 F11: Expert Knowledge Repositories ↳ 3 issues ▶ HIGH
-   └── ⭕ F3: LoRA Training & Tool Integration ↳ 3 issues ▶
+   └── 🔴 F11: Expert Knowledge Repositories ↳ 3 issues ▶ HIGH
 
-📋 Phase 3: Advanced Learning & Enterprise (0/5 features complete)
-   ├── 🔴 F12: Advanced Context Management ↳ 4 issues ▶ HIGH
-   ├── ⭕ F4: Advanced Pattern Recognition ↳ 3 issues ▶
+📋 Phase 3: Advanced Context Management (0/1 features complete)
+   └── 🔴 F12: Advanced Context Management ↳ 4 issues ▶ HIGH
+
+📋 Phase 4: Enhanced Capabilities (0/2 features complete)
+   ├── ⭕ F3: LoRA Training & Tool Integration ↳ 3 issues ▶
+   └── ⭕ F4: Advanced Pattern Recognition ↳ 3 issues ▶
+
+📋 Phase 5: Enterprise Scale (0/3 features complete)
    ├── ⭕ F5: RAG & Knowledge Base ↳ 3 issues ▶
    ├── ⭕ F6: Semantic Embeddings & Memory ↳ 3 issues ▶
    └── ⭕ F7: Enterprise Scalability ↳ 3 issues ▶
@@ -274,12 +288,12 @@ IRR: 142% annually
 | [#11](https://github.com/cgbarlow/pairprogrammer/issues/11) | F2: MCP Hook System & Configuration | Open | 1 | 3-4 weeks |
 | [#47](https://github.com/cgbarlow/ppmoa/issues/47) | F10: Letta Filesystem Core Integration | Open | 2 | 6 weeks |
 | [#48](https://github.com/cgbarlow/ppmoa/issues/48) | F11: Expert Knowledge Repositories | Open | 2 | 6 weeks |
-| [#12](https://github.com/cgbarlow/pairprogrammer/issues/12) | F3: LoRA Training & Tool Integration | Open | 2 | 4-6 weeks |
 | [#49](https://github.com/cgbarlow/ppmoa/issues/49) | F12: Advanced Context Management | Open | 3 | 12 weeks |
-| [#13](https://github.com/cgbarlow/pairprogrammer/issues/13) | F4: Advanced Pattern Recognition | Open | 3 | 6 weeks |
-| [#14](https://github.com/cgbarlow/pairprogrammer/issues/14) | F5: RAG & Knowledge Base System | Open | 3 | 6 weeks |
-| [#15](https://github.com/cgbarlow/pairprogrammer/issues/15) | F6: Semantic Embeddings & Memory | Open | 3 | 4 weeks |
-| [#16](https://github.com/cgbarlow/pairprogrammer/issues/16) | F7: Enterprise Scalability & Performance | Open | 3 | 4 weeks |
+| [#12](https://github.com/cgbarlow/ppmoa/issues/12) | F3: LoRA Training & Tool Integration | Open | 4 | 4-6 weeks |
+| [#13](https://github.com/cgbarlow/ppmoa/issues/13) | F4: Advanced Pattern Recognition | Open | 4 | 6 weeks |
+| [#14](https://github.com/cgbarlow/ppmoa/issues/14) | F5: RAG & Knowledge Base System | Open | 5 | 6 weeks |
+| [#15](https://github.com/cgbarlow/ppmoa/issues/15) | F6: Semantic Embeddings & Memory | Open | 5 | 4 weeks |
+| [#16](https://github.com/cgbarlow/ppmoa/issues/16) | F7: Enterprise Scalability & Performance | Open | 5 | 4 weeks |
 
 ---
 
