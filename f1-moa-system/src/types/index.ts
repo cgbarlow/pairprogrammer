@@ -16,7 +16,8 @@ export type AgentType =
   | 'analyst' 
   | 'optimizer' 
   | 'coordinator' 
-  | 'validator';
+  | 'validator'
+  | 'f9_claude_expert';
 
 export type AgentStatus = 'idle' | 'processing' | 'completed' | 'error';
 
@@ -48,7 +49,7 @@ export interface ConsensusResult {
   confidence: number;
   processingTime: number;
   participatingAgents: string[];
-  consensusMethod: 'weighted' | 'majority' | 'expert' | 'hybrid';
+  consensusMethod: 'weighted' | 'majority' | 'expert' | 'hybrid' | 'f9_enhanced_weighted' | 'traditional_weighted';
   reasoning: string;
 }
 
@@ -124,6 +125,8 @@ export interface MOAResponse {
     agentsUsed: number;
     consensusReached: boolean;
     templateUsed?: string;
+    f9ExpertUsed?: boolean;
+    analysisContext?: Record<string, any>;
   };
 }
 
@@ -156,4 +159,102 @@ export interface SystemMetrics {
   astParseTime: number;
   memoryUsage: number;
   cpuUsage: number;
+}
+
+// F9 Claude Code Best Practices Expert Types
+
+export interface F9ClaudeCodePattern {
+  id: string;
+  name: string;
+  category: 'workflow' | 'performance' | 'context' | 'integration' | 'automation';
+  pattern: string;
+  description: string;
+  useCase: string[];
+  performance: {
+    responseTime: number;
+    efficiency: number;
+    successRate: number;
+  };
+  implementation: {
+    steps: string[];
+    requirements: string[];
+    benefits: string[];
+  };
+  examples: {
+    before: string;
+    after: string;
+    improvement: string;
+  }[];
+  metadata: {
+    created: number;
+    lastUsed: number;
+    usageCount: number;
+    userRating: number;
+  };
+}
+
+export interface F9WorkflowAnalysis {
+  claudeCodeOptimization: {
+    claudeMdSetup: {
+      content: string;
+      performanceImpact: string;
+      optimizations: string[];
+    };
+    mcpServerConfig: {
+      serverName: string;
+      capabilities: string[];
+      estimatedEfficiency: string;
+    };
+    hookConfiguration: {
+      preEdit: string;
+      postEdit: string;
+      preCommit: string;
+    };
+    swarmCoordination: {
+      agents: string[];
+      coordinationStrategy: string;
+      performanceTarget: string;
+    };
+  };
+  contextManagement: {
+    projectOptimization: string[];
+    contextSplitting: string[];
+    memoryUsage: string[];
+  };
+  performanceOptimizations: {
+    responseTime: string[];
+    toolIntegration: string[];
+    automationStrategies: string[];
+  };
+  workflowRecommendations: {
+    developmentPhases: string[];
+    qualityGates: string[];
+    estimatedEfficiency: string;
+  };
+}
+
+export interface F9ConsensusMetrics {
+  traditionalExpertWeight: number;
+  f9ExpertWeight: number;
+  qualityScore: number;
+  workflowOptimizationScore: number;
+  integratedConfidence: number;
+  consensusStrength: number;
+}
+
+export interface F9EnhancedConsensusOptions {
+  useF9Expert: boolean;
+  f9Weight: number;
+  traditionalWeight: number;
+  dynamicWeighting: boolean;
+  contextAware: boolean;
+}
+
+export interface F9AnalysisContext {
+  projectType?: string;
+  teamSize?: string;
+  focusArea?: string;
+  performanceRequirements?: string[];
+  toolIntegrationNeeds?: string[];
+  workflowOptimizationGoals?: string[];
 }
