@@ -1,0 +1,51 @@
+{
+  "name": "f1-moa-system",
+  "version": "1.0.0",
+  "description": "F1 Core Prompting & AST Analysis + 6-Agent MOA System",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "vitest",
+    "test:e2e": "vitest run tests/e2e",
+    "benchmark": "tsx src/benchmark.ts",
+    "mcp": "tsx src/mcp/server.ts",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "tree-sitter": "^0.20.4",
+    "tree-sitter-javascript": "^0.20.1",
+    "tree-sitter-typescript": "^0.20.3",
+    "tree-sitter-python": "^0.20.4",
+    "tree-sitter-rust": "^0.20.4",
+    "@anthropic-ai/sdk": "^0.24.3",
+    "ws": "^8.18.0",
+    "uuid": "^9.0.1",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/uuid": "^9.0.8",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.4.5",
+    "tsx": "^4.7.2",
+    "vitest": "^1.6.0",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "eslint": "^8.57.0"
+  },
+  "keywords": [
+    "moa",
+    "agents",
+    "ast",
+    "prompting",
+    "consensus",
+    "claude-code"
+  ],
+  "author": "PPMOA Team",
+  "license": "MIT"
+}
